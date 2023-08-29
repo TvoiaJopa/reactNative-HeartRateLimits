@@ -18,8 +18,10 @@ export default function App() {
       <Text>Age</Text>
       <TextInput onChangeText={SetAge} style={styles.input} />
       <StatusBar style="auto" />
-      <Text>{min}</Text>
-      <Text>{max}</Text>
+      <Text>Hr limits</Text>
+      <Text>
+        {min} - {max}
+      </Text>
     </View>
   );
 }
